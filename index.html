@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    body{
+       
+        width: 900px;
+        margin: auto;
+        background-color: black;
+    }
+    div{
+        display: flex;
+        gap: 20px;
+        border-radius: 16px;
+    }
+    .vert{
+        flex-direction: column;
+    }
+    .vis{
+        background-color: white;
+        width: 200px;
+        height: 400px;
+    }
+    .mini_goriz{
+        background-color: white;
+        width: 260px;
+        height: 200px;
+    }
+    .squar{
+        background-color: white;
+        width: 200px;
+        height: 200px;
+    }
+    .center{
+        background-color: white;
+        width: 540px;
+        height: 400px;
+    }
+    .goriz{
+        background-color: white;
+        width: 480px;
+        height: 200px;
+    }
+    .right_vert{
+        background-color: white;
+        width: 200px;
+        height: 410px;
+    }
+</style>
+
+<body>
+    <div>
+        <div class="vert">
+            <div>
+                <div class="vert">
+                    <div class="vis"></div>
+                    <div class="squar"></div>
+                </div>
+                <div class="vert">
+                    <div>
+                        <div class="mini_goriz"></div>
+                        <div class="mini_goriz"></div>
+                    </div>
+                    <div class="center"></div>
+                </div>
+            </div>
+            <div>
+                <div class="goriz"></div>
+                <div class="mini_goriz"></div>
+            </div>
+        </div>
+        <div class="vert">
+            <div class="right_vert"></div>
+            <div class="right_vert"></div>
+        </div>
+    </div>
+    
+</body>
